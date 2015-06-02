@@ -304,7 +304,7 @@ function deleteRequest(url, continueWith, continueWithError) {
 
 
 function defaultErrorHandler(message) {
-    console.error(message);
+    //console.error(message);
     chatState.token = 'TN11EN';//this is when is server error; The information on server lost after error!
     chatState.messageList = [];//this is when is server error; The information on server lost after error!
     restoreMessages();

@@ -6,10 +6,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * Created by denis on 2.3.15.
- * Database connector
- */
 public class JDBCConnector {
     private Connection conn = null;
 

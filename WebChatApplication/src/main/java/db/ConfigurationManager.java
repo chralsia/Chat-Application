@@ -5,10 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-/**
- * Created by denis on 4.3.15.
- * Configuration manager, loads Properties file
- */
+
 public class ConfigurationManager {
     private String url, driver, user, pass;
     private static ConfigurationManager instance = null;
